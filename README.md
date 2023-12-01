@@ -1,2 +1,2 @@
-# storyverse
-An immersive reading companion for kids powered by GAI
+# Story Teller
+Tell stories to your kids
