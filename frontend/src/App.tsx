@@ -6,7 +6,7 @@ import { Textarea, Button, Box, Input } from '@chakra-ui/react'
 import { Image } from '@chakra-ui/react'
 import { Text } from '@chakra-ui/react'
 import { CheckCircleIcon, CloseIcon } from '@chakra-ui/icons'
-import Storyverse from './storyverse.png'
+import Storyteller from './storyteller.png'
 import _ from 'lodash';
 
 
@@ -47,7 +47,7 @@ function App() {
               <Text as='b' fontSize='2xl'>
                 Welcome to the Storyverse!
               </Text>
-              <Image src={Storyverse} />
+              <Image src={Storyteller} />
               <Input placeholder={"Input your age"} value={currentAge} onChange={(e) => setCurrentAge(e.target.value)} />
               <Textarea
                 placeholder="Talk about the story you want to read"
